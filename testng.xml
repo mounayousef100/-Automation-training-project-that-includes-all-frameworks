@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+	<listener class-name="com.omayo.utility.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.omayo.rightpagetest.HiddenButtonTest"/>
+      <class name="com.omayo.leftpagetest.OpensNewWindowTest"/>
+      <class name="com.omayo.centerpagetest.TableTest"/>
+      <class name="com.omayo.rightpagetest.AlertDemoTest"/>
+      <class name="com.omayo.rightpageobject.TestDoubleClickPage"/>
+      <class name="com.omayo.leftpagetest.TextBoxWithPreloadedTextTest"/>
+      <class name="com.omayo.leftpagetest.OrderedListTest"/>
+      <class name="com.omayo.leftpagetest.DisplayedAfter10SecondsTest"/>
+      <class name="com.omayo.rightpagetest.LocateUsingClassTest"/>
+      <class name="com.omayo.centerpagetest.Iframe1ANDIframe2Test"/>
+      <class name="com.omayo.leftpagetest.MultiSelectionBoxTest"/>
+      <class name="com.omayo.rightpagetest.RadioOptionsTest"/>
+      <class name="com.omayo.rightpagetest.SameIdandNameTest"/>
+      <class name="com.omayo.rightpagetest.OtherSitestoPracticeAutomationTest"/>
+      <class name="com.omayo.leftpagetest.ButtonsWithSameNameTest"/>
+      <class name="com.omayo.centerpagetest.TextAreFieldTest"/>
+      <class name="com.omayo.leftpagetest.EnabledButtonTest"/>
+      <class name="com.omayo.centerpagetest.TextAreaFieldTwoTest"/>
+      <class name="com.omayo.rightpagetest.LocateUsingNameAttributeTest"/>
+      <class name="com.omayo.centerpagetest.HTMLFormTest"/>
+      <class name="com.omayo.rightpagetest.SearchThisBlogTest"/>
+      <class name="com.omayo.leftpagetest.TryItButtonTest"/>
+      <class name="com.omayo.leftpagetest.UnOrderedListTest"/>
+      <class name="com.omayo.leftpagetest.UploadFileTest"/>
+      <class name="com.omayo.rightpagetest.SelectMultipleOptionsTest"/>
+      <class name="com.omayo.rightpagetest.DefaultSelectedCheckBoxTest"/>
+      <class name="com.omayo.centerpagetest.LoginTest"/>
+      <class name="com.omayo.leftpagetest.PopupWindowTest"/>
+      <class name="com.omayo.rightpagetest.TestDoubleClickTest"/>
+      <class name="com.omayo.rightpagetest.ReadonlyTextBoxTest"/>
+      <class name="com.omayo.rightpagetest.SelectVehicleTest"/>
+      <class name="com.omayo.rightpagetest.ImageElementTest"/>
+      <class name="com.omayo.rightpagetest.GetPromptTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
